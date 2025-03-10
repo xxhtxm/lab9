@@ -36,13 +36,13 @@ public class Main {
         }
         sc.close();
     }
-    static class Student {
-        public String FIO;
-        public int postuplenie;
-        public String adress;
-        public String phone;
-        public int curs;
-        public String facultet;
+   static class Student {
+        private String FIO;
+        private int postuplenie;
+        private String adress;
+        private String phone;
+        private int curs;
+        private String facultet;
 
         public Student(String FIO, int postuplenie, String adress, String phone, int course, String facultet) {
             this.FIO = FIO;
